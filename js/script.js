@@ -34,7 +34,8 @@ function ai(message) {
         send_message("Current Time is :  " + h + ":" + m);
         send_message("Thank you");
     } else {
-        send_message("I do not understand this reply, But i can tell you the time");
+        send_message("I do not understand this reply");
+        send_message("But i can tell you the time");
         send_message("Send the word");
         send_message("<b>time<b>");
     }
